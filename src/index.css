@@ -1,0 +1,69 @@
+/* begin of style the home page */
+body{
+  background-image: url(./assets/earthquake1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+.link_color{
+  color: white;
+}
+.link_color:hover{
+  color: rgb(161, 0, 140);
+}
+.navbar-text:active{
+  color: rgb(253, 0, 219);
+}
+.homepage{
+  text-align: center;
+}
+.start{
+  text-decoration: none;
+  color: white;
+  background-color: rgb(76, 78, 78);
+  font-size: larger;
+  padding: 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border: 2px solid rgb(49, 49, 238);
+}
+/* end of style the home page */
+/* begin of style the predict page */
+.main{
+  position:fixed;
+  top:120px;
+  left:410px;
+  width:700px;
+  background-color:gainsboro;
+  align-items:center;
+  border-radius:5%;
+}
+div{
+  padding:10px;
+}
+input[type=submit]{
+  background-color:Black;
+  color:white;
+  cursor:pointer;
+  padding: 16px 32px;
+}
+h1{
+  font-size:40px;
+}
+h2{
+  font-size:30px;
+}
+body{
+  background-image: url(./assets/earthquake2.jpg); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  
+}
+/* end of style the predict page */
